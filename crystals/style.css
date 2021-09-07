@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*共通部分*/
+html {
+  font-size: 100%;
+}
+body {
+  font-family:'Palanquin Dark', sans-serif;
+  background-color: rgb(215, 249, 250);
+}
+ul {
+  list-style-image: url(images/crystals_li.png); 
+  margin-left: 30px;
+}
+
+/*----------------*/
+
+
+header {
+  text-align: center;
+  }
+
+h1  {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.crystals {
+  color: blue;
+}
+
+#form {
+  text-align: center; 
+}
+
+#input {
+  font-size: 25px;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+
+#button {
+  /* ブラウザ特有のスタイルを無効に */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  /* 整える */
+  margin: 1em 0; /* 前後の隙間 */
+  padding: 0.6em; /* 塗りの余白 */
+  font-size: 15px; /* フォントサイズ */
+  background-color: #1aa1ff; /* 背景色 */
+  color: #FFF; /* テキストカラー */
+  cursor: pointer; /* カーソルを指マークに */
+  border-radius: 5px; /* 角の丸み */
+  border: 0; /* 枠線を消す */
+  transition: 0.3s; /* ホバーの変化を滑らかに */
+}
+
+/* ホバー時（カーソルをのせた時）の見た目 */
+#button:hover {
+  background-color: #064fda; /* 背景色 */
+}
+
+
+li {
+  font-size: 20px;
+  border-bottom: 2px rgb(123, 210, 245) solid;
+}
+
+li:hover {
+  background-color: rgb(127, 206, 243);
+}
+
+.ok {
+  background: rgb(63, 128, 248);
+
+}
